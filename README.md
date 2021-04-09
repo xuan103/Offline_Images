@@ -13,7 +13,7 @@
 - If want docker to working to do: **"sudo docker exec -it t1 /bin/bash"**
 - If want to save docker to ".tar": **"sudo docker save centos_tool > centos_tool.tar"**
 
-> If you want to change the version of the above, please prepare the offline version of the kit for replacement.
+> If you want to change the above version or others, please do it yourself.
 
 ---
 
@@ -39,5 +39,5 @@ Can try **"./net.sh"**.
 ## If there is a missing program, you can try:
 [Go To Link-1](https://drive.google.com/drive/folders/1G43ovQ_UyRwBpAYpuD15qm7Z9uJdujuW?usp=sharing)
 
-## If the installation package is missing, you can try
+## If the installation package is missing, you can try:
 [Go To Link-2](https://drive.google.com/drive/folders/11fsp6aCbs7DTuV28107xd8e2ZKJvCS_O?usp=sharing)

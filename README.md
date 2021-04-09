@@ -1,10 +1,29 @@
-# Offline Images Reading
+# Install: Reading
+
+> Before execution, you can refer to this file for installation. This is the preparation and installation of the **online** version.
+
+> Not sure if the machine in use has a network, or you want to see the network situation of the machine in use Can try **"./net.sh"**.
+
+>---
+- You need to prepare **[index.html](https://github.com/xuan103/Offline_Images/blob/main/Install/index.html)** and **[Dockerfile](https://github.com/xuan103/Offline_Images/blob/main/Install/Dockerfile)**
+- If want to start docker, Can try **“./build_docker.sh”** .
+>---
+- If want to check images: **"sudo docker images"**
+- If want to run docker: **"sudo docker run --name t1 -d centos_tools"**
+- If want docker to working to do: **"sudo docker exec -it t1 /bin/bash"**
+- If want to save docker to ".tar": **"sudo docker save centos_tool > centos_tool.tar"**
+
+> If you want to change the version of the above, please prepare the offline version of the kit for replacement.
+
+---
+
+# Offline: Reading
 
 > Before execution, you can refer to this file for installation. 
-This is the preparation and installation of the offline version. 
+This is the preparation and installation of the **offline** version. 
 
->Not sure if the machine in use has a network, or I want to see the network situation of the machine in use
-Can try **"./net.sh"** .
+>Not sure if the machine in use has a network, or you want to see the network situation of the machine in use
+Can try **"./net.sh"**.
 
 - If want to install docker, Can try **"./offline_docker.sh"** .
 - If want to install nginx, Can try **"./offline_nginx.sh"** .
